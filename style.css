@@ -70,8 +70,8 @@ body {
 .wrapper > div {
   flex: 1;
 }
-/*.wrapper .product-card {
-}*/
+.wrapper .product-card {
+}
 .wrapper .product-card img {
   width: 100%;
   height: 100%;
