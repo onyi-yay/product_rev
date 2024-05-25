@@ -6,34 +6,31 @@
     <title>Product review</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="./style.css" />
-    <link rel="https://fonts.google.com/specimen/Montserrat | https://fonts.google.com/specimen/Fraunces" href="./style.css">
-    <style>
-      heading-font { 
-        font-family: "Montserrat", sans-serif;
-      }
-      body-font {
-        font-family: "Fraunces", sans-serif;
-      }
-    </style>
+    <link rel="stylesheet" href="./stylemobile.css" />
+    <link rel="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
   </head>
+
   <body>
     <div class="wrapper">
-      <div class="container-one">
-        <img src="./images/image-product-desktop.jpg" alt="" srcset="" />
+      <div class="product-card">
+        <img src="./images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum"/>
       </div>
-      <div class="container-two">
-        <h2 class="heading-font">Perfume</h2>
+      <div class="product-details">
+        <p class="product-category">PERFUME</p>
         <br>
-        <h1 class="body-font">Gabrielle Essence Eau De Parfum</h1>
+        <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
         <br>
-        <h4>
+        <p class="product-description">
           A floral, solar and voluptuous interpretation composed by Olivier Polge, 
           Perfumer-Creator for the House of CHANEL.
-        </h4>
-
-        <br>
-
-
+        </p>
+      <div class="product-price">
+        <span class="new-price">$149.99</span>
+        <span class="old-price">$169.99</span>
+      </div>
+      
+      <button class="add-to-cart"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
       </div>
     </div>
   </body>
